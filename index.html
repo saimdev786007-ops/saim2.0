@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saim 2.0 | Cyber Futuristic Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Fully Functional Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">SAIM<span>2.0</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello, I'm <span class="gradient-text">Saim 2.0</span></h1>
+                <div class="typing-container">
+                    <span class="typing-text" id="typing-text"></span>
+                </div>
+                <p>Next-generation developer creating futuristic digital experiences. Pushing boundaries with AI, cutting-edge web technologies, and innovative problem-solving.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Main Box with Profile Picture -->
+                <div class="floating-box">
+                    <div class="profile-pic" id="profile-pic"></div>
+                </div>
+                <!-- Additional Floating Boxes -->
+                <div class="floating-box"></div>
+                <div class="floating-box"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2 class="section-title">About <span class="gradient-text">2.0</span></h2>
+        <div style="max-width: 800px; margin: 0 auto; font-size: 1.1rem;">
+            <p>Welcome to the next evolution. Saim 2.0 represents the fusion of cutting-edge technology with creative vision. I specialize in building immersive digital experiences that blur the line between reality and virtuality.</p>
+            <br>
+            <p>With expertise in modern web technologies, AI integration, and futuristic UI/UX, I transform complex ideas into elegant, interactive solutions. Every project is an opportunity to push boundaries and redefine what's possible.</p>
+            <br>
+            <p>Currently exploring: Neural Networks, Web3, Real-time 3D Rendering, and Quantum Computing Concepts.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2 class="section-title">Skills <span class="gradient-text">Matrix</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-robot"></i>
+                <h3>AI/ML</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MongoDB</h3>
+                <p>Advanced</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-bolt"></i>
+                <h3>FastAPI</h3>
+                <p>Intermediate</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Expert</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cube"></i>
+                <h3>Three.js</h3>
+                <p>Intermediate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <h2 class="section-title">Cyber <span class="gradient-text">Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img"></div>
+                <div class="project-content">
+                    <h3>Neural Interface Dashboard</h3>
+                    <p>AI-powered analytics dashboard with real-time neural network visualization and predictive modeling.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">TensorFlow.js</span>
+                        <span class="tag">WebGL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img"></div>
+                <div class="project-content">
+                    <h3>Quantum Chat App</h3>
+                    <p>End-to-end encrypted messaging with quantum-resistant algorithms and holographic UI.</p>
+                    <div class="project-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">WebRTC</span>
+                        <span class="tag">Three.js</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img"></div>
+                <div class="project-content">
+                    <h3>AR Portfolio Viewer</h3>
+                    <p>Augmented Reality experience to view projects in 3D space using smartphone camera.</p>
+                    <div class="project-tags">
+                        <span class="tag">AR.js</span>
+                        <span class="tag">A-Frame</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h2 class="section-title">Contact <span class="gradient-text">2.0</span></h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name" id="name">
+                <input type="email" placeholder="Your Email" id="email">
+                <textarea placeholder="Your Message" rows="5" id="message"></textarea>
+                <button class="btn btn-primary" onclick="sendMessage()">Send Transmission</button>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>hello@saim2.dev</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+92 300 1234567</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>Karachi, Pakistan</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Available</h3>
+                        <p>24/7 for futuristic projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© 2024 Saim 2.0. All systems operational. | Designed with <i class="fas fa-heart" style="color: #ff00e4;"></i> in the future.</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--secondary);">Version 2.0.1 | Neural Network Active</p>
+    </footer>
+
+    <!-- Particle Controls (Optional - Remove if not needed) -->
+    <div class="particle-controls">
+        <button class="particle-btn" onclick="increaseParticles()">+ Particles</button>
+        <button class="particle-btn" onclick="decreaseParticles()">- Particles</button>
+        <button class="particle-btn" onclick="changeParticleColor()">Change Color</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
