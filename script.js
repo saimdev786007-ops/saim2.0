@@ -2,7 +2,7 @@
         particlesJS("particles-js", {
             particles: {
                 number: {
-                    value: 150,
+                    value: 50,
                     density: {
                         enable: true,
                         value_area: 1200
@@ -330,4 +330,5 @@
         // ==================== INITIAL NOTIFICATION ====================
         setTimeout(() => {
             showNotification("🚀 Particle System Active! Try hovering/clicking");
+
         }, 1500);
